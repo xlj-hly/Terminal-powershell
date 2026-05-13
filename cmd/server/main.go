@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+	// 定义路由
 	mux := routes.Setup()
 
 	srv := &http.Server{

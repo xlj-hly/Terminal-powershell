@@ -28,6 +28,7 @@ func registerAPIRoutes(mux *http.ServeMux) {
 }
 
 func Setup() *http.ServeMux {
+	// 创建路由
 	mux := http.NewServeMux()
 
 	// 根路径
