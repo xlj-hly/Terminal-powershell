@@ -13,7 +13,7 @@ Go 语言实现的终端服务，提供 WebSocket 终端和命令执行接口。
 ## 项目结构
 
 ```
-terminal_go/
+terminal/
 ├── cmd/
 │   └── server/
 │       └── main.go          # 程序入口
